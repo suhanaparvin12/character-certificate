@@ -61,7 +61,7 @@ const generatePDF = async (name) => {
 //document.getElementById("pdf").src = pdfDataUri;
   var file = new File(
     [pdfBytes],
-    "AECDEV Welcome Certificate.pdf",
+    "Character Certificate.pdf",
     {
       type: "application/pdf;charset=utf-8",
     }
